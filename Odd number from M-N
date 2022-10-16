@@ -1,8 +1,0 @@
-# Python Program to generate Odd Numbers from M to N
-
-m= int(input(" Please Enter the  Value : "))
-n= int(input(" Please Enter the Value : "))
-while n <= m:
-    if(n % 2 != 0):
-        print("{0}".format(n))
-    n = n + 1
